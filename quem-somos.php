@@ -44,7 +44,7 @@
 
     <!--Inicio do MAIN-->
     <main>
-      <h2 class="h2">Que Somos</h2>
+      <h2 class="h2 mt-4">Que Somos</h2>
       <div class="container">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellat corporis, rem magni asperiores ducimus error! Nesciunt, animi molestiae, quia dolorem exercitationem error, magni obcaecati pariatur numquam quae odio cum?</p>
       </div>

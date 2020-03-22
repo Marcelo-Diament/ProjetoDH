@@ -12,6 +12,10 @@ header nav {
 main {
   color: black;
 }
+.h2 {
+  color: black;
+  text-align: center;
+}
   
 footer{    
       text-align: center;

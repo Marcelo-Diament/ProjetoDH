@@ -45,7 +45,7 @@
     <!--Inicio do MAIN-->
     <main>
     <!--Inicio do Formulário-->
-      <h2 class="h2">Contate-nos</h2>
+      <h2 class="h2 mt-4">Contate-nos</h2>
       <form class="container">
         <div class="form-group mt-2">
           <label for="exampleFormControlInput1">Nome</label>
