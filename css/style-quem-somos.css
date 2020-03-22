@@ -1,6 +1,6 @@
 
 body{
-  margin:0;
+     margin:0;
     color: ivory;
     font-weight: 100;
   
@@ -8,6 +8,10 @@ body{
 header nav {
     background: url("../css/img/header/bg.jpg");
   }
+
+main {
+  color: black;
+}
   
 footer{    
       text-align: center;

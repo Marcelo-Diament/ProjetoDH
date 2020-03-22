@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link  rel="stylesheet" href ="../ProjetoDH/css/styleProduto.css">
+    <link  rel="stylesheet" href ="../ProjetoDH/css/style-quem-somos.css">
     <title>SurfWin</title>
 
 </head>
@@ -19,18 +19,18 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="../ProjetoDH/index.html">Home</a>
+            <a class="navbar-brand" href="../ProjetoDH/index.php">Home</a>
            <h3>| </h3>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                  <a class="nav-link" href="../ProjetoDH/Produtos.html"> Produtos</a>
+                  <a class="nav-link" href="../ProjetoDH/produtos.php"> Produtos</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="../ProjetoDH/QuemSomos.html">Quem somos</a>
+                  <a class="nav-link" href="../ProjetoDH/quem-somos.php">Quem somos</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="../ProjetoDH/Contato.html">Contato</a>
+                  <a class="nav-link" href="../ProjetoDH/contato.php">Contato</a>
                 </li>
               </ul>
               <!--Botões de login e carrinho de compra-->
@@ -44,7 +44,10 @@
 
     <!--Inicio do MAIN-->
     <main>
-      
+      <h2 class="h2">Que Somos</h2>
+      <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellat corporis, rem magni asperiores ducimus error! Nesciunt, animi molestiae, quia dolorem exercitationem error, magni obcaecati pariatur numquam quae odio cum?</p>
+      </div>
     </main>
   
     <!--Inicio do FOOTER-->
