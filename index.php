@@ -33,33 +33,10 @@
                   <a class="nav-link" href="../ProjetoDH/contato.php">Contato</a>
                 </li>
               </ul>
-              <!--Botão de login-->
+                 <!--Botão de login-->
               <form class="form-inline my-2 my-lg-0">
                 <button class="btn my-2 my-sm-0" type="button"><img src="../ProjetoDH/css/img/header/login.png" height="35" width="35"alt="botão de LogIn" data-toggle="modal" data-target="#exampleModal"></button>
-                  <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Dados do Usuário</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <!--Campos para inserção dos dados de Login-->
-                            <form class="form-inline my-2 my-lg-0 justify-content-center">
-                              <input class="form-control mr-sm-2 mb-3" type="email" placeholder="Insira seu email" size="col-sm-8 col-md-12">
-                              <input class="form-control mr-sm-2" type="password" placeholder="Insira sua senha" size="col-sm-8 col-md-12">
-                            </form>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                            <button type="button" class="btn btn-primary">Entrar</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+
                 <!--Botões do carrinho de compra-->
                 <button class="btn my-2 my-sm-0" type="submit"><img src="../ProjetoDH/css/img/header/carrinho.png" height="35" width="35"alt="botão do carrinho"></button>
               </form>
