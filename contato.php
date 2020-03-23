@@ -11,7 +11,7 @@
     <!--Inicio do MAIN-->
     <main>
     <!--Inicio do Formulário-->
-      <h2 id="h2contato">Contate-nos</h2>
+      <h2>Contate-nos</h2>
       <form class="container">
         <div class="form-group mt-2">
           <label for="exampleFormControlInput1">Nome</label>
@@ -25,7 +25,7 @@
           <label for="exampleFormControlTextarea1">Escreva:</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary mb-2 float-right">Enviar</button>
+        <button type="submit" class="btn btn-warning btn-lg mb-2 float-right border-light">Enviar</button>
       </form>
     </main>
   
