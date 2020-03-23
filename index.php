@@ -9,7 +9,7 @@
  ?>
 
     <!--Inicio do MAIN-->
-    <main>
+    <main class="background">
     <h1 id = "BemVindo">Bem vindo(a) ao SurfWin!</h1>
     </main>
 
