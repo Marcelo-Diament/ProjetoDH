@@ -1,7 +1,7 @@
 
 body{
-margin:0;
-  background: url(img/ondas.jpg) ;
+  margin:0;
+  background: url("../css/img/ondas.jpg") ;
   background-attachment: fixed;
   background-size: 100%;
   color: ivory;
@@ -9,7 +9,7 @@ margin:0;
 
 }   
 header nav {
-  background: url(../css/img/header/bg.jpg);
+  background: url("../css/img/header/bg.jpg");
 }
 
 #BemVindo{
