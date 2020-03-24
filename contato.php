@@ -20,12 +20,15 @@
           <input type="text" class="form-control mb-2" id="exampleFormControlInput1" placeholder="Sobre o que deseja conversar">
           <label for="exampleFormControlInput1">Email</label>
           <input type="email" class="form-control mb-2" id="exampleFormControlInput1" placeholder="name@example.com" required>
+          <label for="exampleFormControlInput1">Telefone</label>
+          <input type="tel" class="form-control mb-2" id="exampleFormControlInput1" placeholder="(11)9.9999-9999" required>
+
         </div>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Escreva:</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
         </div>
-        <button type="submit" class="btn btn-warning btn-lg mb-2 float-right border-light">Enviar</button>
+        <button id="sendButton" type="submit" class="btn btn-primary btn-lg mb-2 float-right border-light-5">Enviar</button>
       </form>
     </main>
   
