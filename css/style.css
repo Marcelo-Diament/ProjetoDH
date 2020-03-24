@@ -1,9 +1,11 @@
 
 body{
-  background-image: url("../css/img/ondas.jpg");
+  background-image: url("../css/img/ondas.jpg"); 
   background-attachment: fixed;
   background-size: 100%;
   color: ivory;
+  opacity: 0.9;
+
 }   
 
 header nav {
@@ -20,28 +22,25 @@ header nav {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #585858;
 }
-h3 {
+h3 p h2{
   color: ivory;
 }
 h2{
   margin-top: 7px;
   text-align: center;
-  color: ivory;
 
 }
 #sendButton{
-  background-color: transparent;
+  opacity: 0.8;
   color: ivory;
   font-weight: bold;
 }
 #sendButton:hover{
   background-color: cornflowerblue;
   color: ivory;
+  opacity: 1;
 }
 
-p{
-  color: ivory;
-}
 
 footer{    
     text-align: center;
