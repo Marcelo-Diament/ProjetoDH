@@ -28,15 +28,6 @@
       <button type="submit" class="btn btn-warning btn-lg mb-2 float-right border-light">Enviar</button>
     </form>
   </main>
-
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Mensagem</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
-        </div>
-        <button id="sendButton" type="submit" class="btn btn-primary btn-lg mb-2 float-right border-light-5">Enviar</button>
-      </form>
-    </main>
   
  <!-- Inclusão FOOTER--> 
  <?php 
