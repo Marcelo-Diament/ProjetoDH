@@ -1,13 +1,16 @@
 
 body{
-  margin:0;
-  background: url("../css/img/ondas.jpg") ;
+  background-image: url("../css/img/ondas.jpg");
   background-attachment: fixed;
   background-size: 100%;
-  color: ivory;
-  font-weight: 100;
 
 }   
+.background {
+  margin:0;
+  color: ivory;
+  font-weight: 100;
+}
+
 header nav {
   background: url("../css/img/header/bg.jpg");
 }
@@ -19,7 +22,19 @@ header nav {
     font-weight: 100;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #585858;
+}
+h3 {
+  color: ivory;
+}
+h2{
+  margin-top: 7px;
+  text-align: center;
+  color: ivory;
 
+}
+
+p{
+  color: ivory;
 }
 
 footer{    
