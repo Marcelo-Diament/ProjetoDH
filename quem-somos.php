@@ -1,11 +1,11 @@
  <!-- Inclusão HEAD--> 
  <?php
-  require_once("head.php");
+  require_once("./inc/head.php");
  ?>
   <!-- Inclusão HEADER--> 
 
  <?php
-  require_once("header.php");
+  require_once("./inc/header.php");
  ?>
 
     <!--Inicio do MAIN-->
@@ -18,5 +18,5 @@
   
  <!-- Inclusão FOOTER--> 
  <?php 
-  require_once("footer.php");
+  require_once("./inc/footer.php");
 ?>
