@@ -1,6 +1,6 @@
 
 body{
-  background-image: url("../css/img/ondas.jpg");
+  background-image: url("../css/img/ondas.jpg"); 
   background-attachment: fixed;
   background-size: 100%;
 
@@ -9,10 +9,14 @@ body{
   margin:0;
   color: ivory;
   font-weight: 100;
+  opacity: 0.9;
+
 }
 
 header nav {
   background: url("../css/img/header/bg.jpg");
+  border: ivory;
+
 }
 
 #BemVindo{
@@ -23,22 +27,28 @@ header nav {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #585858;
 }
-h3 {
+h3 p h2{
   color: ivory;
-}
-h2{
-  margin-top: 7px;
-  text-align: center;
-  color: ivory;
-
 }
 
-p{
-  color: ivory;
+
 }
+#sendButton{
+  opacity: 0.8;
+  color: ivory;
+  font-weight: bold;
+}
+#sendButton:hover{
+  background-color: cornflowerblue;
+  color: ivory;
+  opacity: 1;
+}
+
 
 footer{    
     text-align: center;
     background: url("../css/img/footer/bg.jpg");
     padding: 15px 0;
+    border: ivory;
+
 }
