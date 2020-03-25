@@ -18,6 +18,8 @@
         <input type="text" class="form-control mb-2" id="exampleFormControlInput1" placeholder="Insira seu nome" required>
         <label for="exampleFormControlInput1 ">Assunto</label>
         <input type="text" class="form-control mb-2" id="exampleFormControlInput1" placeholder="Sobre o que deseja conversar">
+        <label for="exampleFormControlInput1">Telefone</label>
+        <input type="tel" class="form-control mb-2" id="exampleFormControlInput1" placeholder="(11)9.9999-9999" required>
         <label for="exampleFormControlInput1">Email</label>
         <input type="email" class="form-control mb-2" id="exampleFormControlInput1" placeholder="name@example.com" required>
       </div>
