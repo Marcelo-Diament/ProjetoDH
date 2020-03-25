@@ -10,20 +10,14 @@
 
  <!--Inicio do MAIN-->
  <main>
+    <h2 class="titulosETextos">Produtos</h2>
 
  </main>
+
+
 
  <!-- Inclusão FOOTER-->
  <?php
   require_once("./inc/footer.php");
   ?>
 
-    <!--Inicio do MAIN-->
-    <main>
-      
-    </main>
-  
- <!-- Inclusão FOOTER--> 
- <?php 
-  require_once("./inc/footer.php");
-?>

@@ -1,6 +1,6 @@
-  
      <!--Inicio do FOOTER-->
-    <footer class="fixed-bottom ">
+    <footer id="footer "class="fixed-bottom">
+
         <img src="../ProjetoDH/css/img/footer/logo-branco-footer.png" height="40px">
         <p>&copy; Copyright Surf Win - 2020</p>
 
