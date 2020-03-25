@@ -29,12 +29,6 @@
     </form>
   </main>
 
-<<<<<<< HEAD
-  <!-- Inclusão FOOTER-->
-  <?php
-  require_once("./inc/footer.php");
-  ?>
-=======
         </div>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Mensagem</label>
@@ -48,4 +42,3 @@
  <?php 
   require_once("./inc/footer.php");
 ?>
->>>>>>> ajustando
