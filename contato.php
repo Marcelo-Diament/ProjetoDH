@@ -1,12 +1,15 @@
-  <!-- Inclusão HEAD-->
-  <?php
+ <!-- Inclusão HEAD--> 
+ <?php
   require_once("./inc/head.php");
-  //Inclusão HEADER
-  require_once("./inc/header.php");
-  ?>
+ ?>
+  <!-- Inclusão HEADER--> 
 
-  <!--Inicio do MAIN-->
-  <main>
+ <?php
+  require_once("./inc/header.php");
+ ?>
+
+    <!--Inicio do MAIN-->
+    <main>
     <!--Inicio do Formulário-->
     <h2>Contate-nos</h2>
     <form class="container">
@@ -26,7 +29,23 @@
     </form>
   </main>
 
+<<<<<<< HEAD
   <!-- Inclusão FOOTER-->
   <?php
   require_once("./inc/footer.php");
   ?>
+=======
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Mensagem</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+        </div>
+        <button id="sendButton" type="submit" class="btn btn-primary btn-lg mb-2 float-right border-light-5">Enviar</button>
+      </form>
+    </main>
+  
+ <!-- Inclusão FOOTER--> 
+ <?php 
+  require_once("./inc/footer.php");
+?>
+>>>>>>> ajustando
