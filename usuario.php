@@ -11,25 +11,26 @@ require("./utils/usuario.php");
 
             <?php
             
-            var_dump($usuarioEncontrado[0]);die;
+            // var_dump($usuarioEncontrado[0]);die;
 
+            // AGORA SIM QUE TEMOS O $usuarioEncontrado CONSEGUIMOS ACESSAR SUAS PROPRIEDADES
             (isset($usuarioEncontrado) && $usuarioEncontrado && isset($_REQUEST) && isset($_REQUEST["editar"]) && $_REQUEST["editar"] === "editar")  ?>
                 <form action="usuarios.php" method="post">
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label style="color: black" for="nome">Nome</label>
-                            <input type="text" class="form-control" id="nome" name="nome" required value="<?= $usuarioEncontrado["usuarios"]["nome"] ?>">
+                            <input type="text" class="form-control" id="nome" name="nome" required value="<?= $usuarioEncontrado["nome"] ?>">
                         </div>
                         <div class="form-group col-md-6">
                             <label style="color: black" for="sobrenome">Sobrenome</label>
-                            <input type="text" class="form-control" id="sobrenome" name="sobrenome" required value="<?= $usuarioEncontrado["usuarios"]["sobrenome"] ?>">
+                            <input type="text" class="form-control" id="sobrenome" name="sobrenome" required value="<?= $usuarioEncontrado["sobrenome"] ?>">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label style="color: black" for="emailCadastrado">email</label>
-                            <input type="email" class="form-control" id="emailCadastrado" name="emailCadastrado" disabled value="<?= $usuarioEncontrado["usuarios"]["email"] ?>">
-                            <input type="hidden" class="form-control" id="email" name="email" required value="<?= $usuarioEncontrado["usuarios"]["email"] ?>">
+                            <input type="email" class="form-control" id="emailCadastrado" name="emailCadastrado" disabled value="<?= $usuarioEncontrado["email"] ?>">
+                            <input type="hidden" class="form-control" id="email" name="email" required value="<?= $usuarioEncontrado["email"] ?>">
                         </div>
                         <div class="form-group col-md-6">
                             <label style="color: black" for="senha">Senha (preencha a atual ou uma nova - obrigatório)</label>
